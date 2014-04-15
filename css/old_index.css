@@ -1,0 +1,18 @@
+html {
+	
+}
+
+body {
+	background-color: #242424;
+	font-family: Arial, sans-serif;
+	color: #D1D1D1;
+}
+
+a {
+	color: #FAF207;
+	font-weight: bold;
+}
+
+a:visited {
+	color: #070FFA;
+}

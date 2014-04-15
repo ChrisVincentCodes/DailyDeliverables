@@ -1,0 +1,37 @@
+body {
+	background-color: #242424;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	color: #D1D1D1;
+}
+
+#container {
+	padding-left: 60px;
+}
+
+#dimensions {
+
+}
+
+#absorption {
+
+}
+
+#units {
+	
+}
+
+table {
+
+}
+
+td {
+	text-align: left;
+}
+
+input[type="number"]{
+	width: 100px;
+}
+
+select {
+	width: 150px;
+}
