@@ -1,0 +1,21 @@
+body{
+	background-color: #F2E5A5;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+
+}
+
+div.shybox {
+width: 100px;
+height:100px;
+background-color: #A5B2F2;
+position:fixed;
+border-radius: 30px;
+text-align: center;
+vertical-align: center;
+line-height: 2.1em;
+}
+
+footer{
+	width: 100%;
+	text-align: center;
+}
