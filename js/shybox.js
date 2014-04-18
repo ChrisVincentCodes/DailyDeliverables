@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$('.shybox').mouseenter( function() {
+	$('.shybox').on('mouseenter click', function() {
 		animateDiv();
 	});
 });
