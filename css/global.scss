@@ -1,0 +1,169 @@
+$primary-color: #FCD80A;
+$secondary-color: #FC8B0A;
+
+body {
+	background-color: #242424;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	color: #D1D1D1;
+	height: 100%;
+	/*line-height: 150%;*/
+}
+
+a {
+	color: $primary-color;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: $secondary-color;
+}
+
+h1 {
+	font-size: 2.0em;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+.center {
+	margin: 0 auto;
+	display: block;
+}
+
+#greeting {
+	text-align: center;
+	padding: 10px 0 30px 0;
+	margin: 20px 20px 20px 20px;
+	border-bottom: 1px solid $primary-color;
+	position: relative;
+	font-size: 1em;
+}
+
+#mainContent {
+	width: 40%;
+	float: right;
+	display: inline;
+	padding: 0 0 20px 0;
+	font-size: 1.2em;
+	line-height: 150%;
+/*	border: solid 10px;
+	border-color: white;*/
+}
+
+#sidebar {
+	width: 40%;
+	float: left;
+	display: inline;
+	padding: 0 2% 0 2%;
+	font-size: 1.3em;
+	line-height: 150%;
+/*	border: solid 10px;
+	border-color: white;*/
+}
+
+.nonLink {
+	font-weight: bold;
+}
+
+/* NAVBAR CSS*/
+
+#navbar {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 50%;
+	white-space: nowrap;
+	min-width: 240px;
+	padding: 0 5% 0 0;
+	height: 30px;
+	font-size: 1.3em;
+	font-weight: bold;
+	clear: both;
+	/*line-height: normal;*/
+/*		border: solid 10px;
+	border-color: white;*/
+}
+
+.navButton {
+	width: 30%;
+}
+
+#navbar li{
+	display: inline-block;
+	float: left;
+	height: 30px;
+	list-style-type: none; /*This disables the list icon*/
+	overflow: hidden;
+	border-bottom: solid 1px $primary-color;
+}
+
+#navbar li a, #navbar li a:hover, #navbar li a:visited{
+	text-decoration: none; /*This removes the link underline for all cases*/
+	font-weight: bold;
+}
+
+.inactiveMenu, .inactiveMenu:visited, .hoverMenu, .hoverMenu:visited, .activeMenu,.activeMenu:visited {
+	outline: none;
+	padding: 5px 0;
+	text-align: center;
+	display: block;
+}
+
+.hoverMenu, .hoverMenu:visited, .activeMenu, .activeMenu:visited {
+    margin-top: -30px;
+    background: $secondary-color; /* Old browsers */
+	background: -moz-linear-gradient(top,  $secondary-color 0%, $primary-color 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$secondary-color), color-stop(100%,$primary-color)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  $secondary-color 0%,$primary-color 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  $secondary-color 0%,$primary-color 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  $secondary-color 0%,$primary-color 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  $secondary-color 0%,$primary-color 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$secondary-color', endColorstr='$primary-color',GradientType=0 ); /* IE6-9 */
+
+    color: #242424;
+}
+
+.activeMenu, .activeMenu:visited{
+	margin: 0;
+}
+
+.inactiveMenu, .inactiveMenu:visited{
+	color: #D1D1D1;
+	background-color: #242424;
+	padding: 5px 0;
+}
+
+
+/* SCREEN RESIZING */
+
+@media all and (max-width: 700px) {
+
+	#sidebar {
+		position: relative;
+		width: 90%;
+		float: left;
+		padding: 0 0 0 0;
+		margin-left: 20px;
+	}
+
+	#mainContent {
+		float: left;
+		width: 100%;
+		padding: 0 0 0 15%;
+		margin-right: -20px;
+	}
+
+
+	#navbar {
+		width: 100%;
+		position: absolute;
+		bottom:0;
+		/*border: solid 3px black;*/
+		margin: 0 5% 0 5%;
+		padding: 0 0 0 0;
+	}
+}

@@ -14,6 +14,6 @@ $(document).ready(function(){
 	// on mouseleave
 	function(){
 
-		$(this).find('.hoverMenu').stop().animate({marginTop: '-25px'}, 200);
+		$(this).find('.hoverMenu').stop().animate({marginTop: '-30px'}, 200);
 	});
 });

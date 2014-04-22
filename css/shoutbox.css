@@ -1,0 +1,79 @@
+h2 {
+	text-align: center;
+}
+
+#sidebar {
+	/*border: solid 1px white;*/
+}
+
+#mainContent {
+	text-align: left;
+	background-color: #141414;
+	padding: 15px 35px;
+	/*border: solid 1px white;*/
+}
+
+	#mainContent ul {
+	    margin-left: 0;
+	    margin-bottom: 15px;
+	}
+
+	#mainContent ul li {
+	    list-style: none;
+	    clear: both;
+	    padding-top: 30px;
+	}
+
+	    #mainContent ul li:first-child {
+	    	padding-top:0;
+	    }
+
+	.meta {
+	    width: 85px;
+	    text-align: left;
+	    float: left;
+	    min-height: 110px;
+	    font-weight: bold;
+	}
+
+	    .meta img {
+		    padding: 5px;
+		    background-color: #343434;
+	    }
+	     
+	    .meta p {
+	    	font-size: 0.8em;
+	    	line-height: normal;
+	    }
+
+	.shout {
+	    float: right;
+	    margin-right: 15px;
+	    min-height: 110px;
+	    padding-top: 5px;
+	    width: 80%;
+    }
+     
+    form {
+    }
+
+    	.fname, .femail {
+        }
+         
+        form p {
+	        font-weight: bold;
+	        margin-bottom: 3px;
+        }
+         
+        form textarea {
+	        overflow: hidden; /* removes vertical scrollbar in IE */
+        }
+     
+        form input, form textarea {
+	        background-color: #141414;
+	        border: 1px solid #222222;
+	        color: #ffffff;
+	        padding: 5px;
+	        margin-bottom: 10px;
+	        width: 80%;
+        }
