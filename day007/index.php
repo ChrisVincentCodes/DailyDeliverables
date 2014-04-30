@@ -36,7 +36,7 @@
     <body>
         <div id="greeting">
             <ul id="navbar">
-                <li class="navButton"><a href="index.html" class="inactiveMenu">Home</a><span></span></li>
+                <li class="navButton"><a href="../" class="inactiveMenu">Home</a><span></span></li>
                 <li class="navButton"><a href="http://blog.chrisvincentcodes.com" class="inactiveMenu">Blog</a><span></span></li>
                 <li class="navButton"><a href="https://github.com/ChrisVincentCodes/DailyDeliverables" class="inactiveMenu">GitHub</a><span></span></li>
             </ul> <!-- End Navbar -->
@@ -62,8 +62,8 @@
 
 					    	// HTML and SQL injection countermeasures
 					    	$name = htmlspecialchars(mysql_real_escape_string($_POST['name']));
-							$email = htmlspecialchars(mysql_real_escape_string($_POST['email']));
-							$post = htmlspecialchars(mysql_real_escape_string($_POST['post']));
+  							$email = htmlspecialchars(mysql_real_escape_string($_POST['email']));
+  							$post = htmlspecialchars(mysql_real_escape_string($_POST['post']));
 							 
 							$sql = "INSERT INTO shouts SET name='$name', email='$email', post='$post', ipaddress='$ipaddress';";
 	 
