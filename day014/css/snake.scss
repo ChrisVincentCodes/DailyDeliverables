@@ -1,0 +1,20 @@
+body {
+  background-color: black;
+}
+
+#canvas-container {
+  width: 100%;
+  text-align: center;
+}
+
+#score {
+  color:#00D3DE;
+  font-size: 30;
+}
+
+#colorPickerHolder {
+  margin: 0 auto;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
