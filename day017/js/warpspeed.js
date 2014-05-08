@@ -58,7 +58,7 @@ $(document).ready( function() {
   function makeStar(e){
     /*if (count < 200) {*/
       id = 's' + count;
-      $('#mainContainer').append('<div class="star" id="' + id + '"></div>');
+      $('#screenContainer').append('<div class="star" id="' + id + '"></div>');
       $('#' + id).css({position: 'absolute', top: e.pageY, left: e.pageX, background: '#FFFFFF'/*randomColor()*/});
       starArray.push($('#' + id));
       count += 1;
@@ -131,7 +131,7 @@ $(document).ready( function() {
 
   };*/
 
-  $('#mainContainer').on('mousemove', function(e) {
+  $('#screenContainer').on('mousemove', function(e) {
     mouse.x = e.pageX;
     mouse.y = e.pageY;
     

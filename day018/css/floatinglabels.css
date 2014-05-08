@@ -1,0 +1,178 @@
+/* General
+==================================== */
+*, *:before, *:after {
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+ 
+ 
+input, textarea {
+    font: 1em/1.5 Arial, Helvetica, sans-serif;
+    background-color: #111111;
+}
+
+h1 {
+  margin-bottom: auto;
+}
+ 
+#mainContainer.mCStyle {
+    width: 60%;
+    margin-left: 0;
+     
+}
+
+#sidebar.sBStyle {
+  /* width: 40%; */
+}
+ 
+.title {
+    font-size: 1.5em; 
+    padding: .5em 0;
+    text-align: center; 
+    background: #323a45;
+    color: white;
+    border-radius: 5px 5px 0 0;
+}
+
+/* Form
+==================================== */
+.form ul {
+    background: #111111;
+    margin-bottom: 1em;
+}
+ 
+.form li {
+    border: 1px solid #000; 
+    border-bottom: 0;
+    margin-bottom: 0px; 
+    position: relative; 
+}
+ 
+.form li:first-child {
+    border-top: 0;
+}
+ 
+.form li:last-child {
+    border-bottom: 1px solid #000;
+}
+
+label, input, textarea {
+    display: block; 
+    border: 0;
+}
+ 
+input, textarea { 
+    width: 100%; 
+    /* height: 100%; */ 
+    padding: 2.25em 1em 1em; 
+    outline: 0;
+    color: white;
+}
+ 
+textarea {
+    height: 16em;
+    resize: none; 
+}
+
+label {
+    font-size: .8125em; /* 13/16 */
+    position: absolute;
+    top: 1.23em;
+    left: 1.23em;
+    color: #FC8B0A;
+    opacity: 1;
+
+    -webkit-transition: .333s ease top, .333s ease opacity;
+    transition: .333s ease top, .333s ease opacity;
+}
+
+input[type="submit"] {
+    background: #FC8B0A;
+    margin-bottom: 1em;
+    color: #242424;
+    border-radius: 3px;
+    padding: .75em;
+    font-weight: bold;
+    -webkit-appearance: none; /* remove default browser <button> styling */
+    -webkit-transition: .333s ease -webkit-transform;
+    transition: .333s ease transform;
+}
+
+input[type="submit"]:hover {
+    -webkit-transform: scale(1.025);
+    transform: scale(1.025);
+    cursor: pointer;
+}
+
+input[type="submit"]:active {
+    -webkit-transform: scale(.975);
+    transform: scale(.975);
+}
+
+.js-hide-label label {
+    visibility: hidden;
+    /* opacity: 0; */
+    top: 1.5em;
+}
+
+.js-unhighlight-label label {
+    color: #999;
+}
+
+/* From shoutbox.css
+#mainContent {
+  text-align: left;
+  background-color: #141414;
+  padding: 15px 35px;
+  /*border: solid 1px white;
+}*/
+
+  #mainContent ul {
+      margin-left: 0;
+      margin-bottom: 15px;
+  }
+
+  #mainContent ul li {
+      list-style: none;
+      clear: both;
+      
+      /* padding-top: 30px; */
+  }
+
+      #mainContent ul li:first-child {
+        padding-top:0;
+      }
+
+  .meta {
+      width: 160px;
+      text-align: right;
+      float: left;
+      min-height: 50px;
+      font-weight: bold;
+      background: #323a45;
+      border-radius: 5px;
+      padding: 10px;
+  }
+
+      /* .meta img {
+        padding: 5px;
+        background-color: #343434;
+      } */
+       
+      .meta p {
+        /* font-size: 0.8em; */
+        line-height: normal;
+      }
+
+  .shout {
+      float: right;
+      margin-right: 15px;
+      min-height: 50px;
+      /* padding-top: 5px; */
+      width: 80%;
+      background-color: #111111;
+      border-radius: 3px;
+      padding: 3px;
+
+    }

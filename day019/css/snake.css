@@ -1,0 +1,100 @@
+body {
+  background-color: black;
+  color: #00D3DE;
+  font-size: 2.0em;
+}
+
+p {
+  color: black;
+  background-color: #00D3DE;
+}
+
+#alert {
+  width:100%;
+  height: 50px;
+}
+
+#startButton, #restartButton, #submit {
+  background-color: black;
+  border-radius: 0;
+  border: 2px solid;
+  padding: 10px;
+}
+
+.colorSelector {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  background-color: #111111;
+  display: inline-block;
+  margin-left: -36px;
+  margin-bottom: -10px;
+  /* border: solid white 2px; */
+}
+.colorSelector div {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 30px;
+  height: 30px;
+  background-color: #333333;
+}
+
+#game-container {
+  /* position: absolute;
+  top: 0px;
+  left: 0px; */
+  /* width: 70%; */
+  text-align: center;
+  float: left;
+  width: 100%;
+  /* margin-right: 225px; */
+}
+
+
+#score {
+  color:#00D3DE;
+  display: inline-block;
+}
+
+#scoreHolder {
+  display: inline-block;
+  /* border: solid white 2px; */
+}
+
+/* #colorPickerHolder {
+  margin: 0 auto;
+  display: inline-block;
+width: 100%;
+  text-align: center;
+} */
+
+#splashScreen, #finishScreen {
+  text-align: center;
+  /* width: 100%; */
+}
+
+#hsTable {
+  text-align: center;
+  width: 100%;
+}
+
+.highlight {
+  color: black;
+  background-color: #00D3DE;
+}
+
+#hsTable th {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+#tableContainer {
+  width: 100%;
+  text-align: center;
+}
+
+.success, .error {
+  text-align: center;
+}

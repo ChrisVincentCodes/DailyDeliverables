@@ -9,7 +9,7 @@
         <title>ShoutBox | ChrisVincentCodes</title>
 
         <link rel="stylesheet" href="../css/reset.css">
-        <link rel="stylesheet" href="../css/common.css">
+        <link rel="stylesheet" href="../css/build/global.css">
         <link rel="stylesheet" href="css/shoutbox.css">
         <!-- JS -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>        
