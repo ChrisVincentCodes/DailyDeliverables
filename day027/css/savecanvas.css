@@ -1,0 +1,42 @@
+#mainDiv {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 1em;
+}
+
+canvas {
+  box-shadow: 2px 2px 2px #000000;
+  background-color: #FFFFFF;
+  border: 1px solid #111111;
+
+}
+
+input[type=button]{
+  /* height: 4em; */
+  color: #FFFFFF;
+  background-color: #111111;
+  border: none;
+  box-shadow: 2px 2px 2px #000000;
+  display: inline-block;
+
+}
+
+.colorSelector {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  background-color: #111111;
+  display: inline-block;
+  margin-left: -36px;
+  margin-bottom: -10px;
+  /* border: solid white 2px; */
+}
+.colorSelector div {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 30px;
+  height: 30px;
+  background-color: #333333;
+}

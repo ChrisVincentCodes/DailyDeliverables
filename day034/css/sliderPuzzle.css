@@ -1,0 +1,24 @@
+#canvas {
+  background-color: #111111;
+  margin-top: 36px;
+}
+
+#canvasContainer {
+  width: 500px;
+  height: 500px;
+  background-color: #111111;
+  box-shadow: 2px 2px 2px #000000;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+#mainDiv {
+  text-align: center;
+  height: 90%;
+}
+
+#howTo {
+  padding-top: 1.0em;
+  font-size: 1.2em;
+}

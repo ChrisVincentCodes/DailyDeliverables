@@ -16,16 +16,16 @@ module.exports = function(grunt) {
             dest: 'js/build/production.min.js'
           }
         },
-        imagemin: {
-          dynamic: {
-            files: [{
-              expand: true,
-              cwd: 'images/',
-              src: ['**/*.{png,jpg,gif}'],
-              dest: 'images/build/'
-            }],
-          }
-        },
+        // imagemin: {
+        //   dynamic: {
+        //     files: [{
+        //       expand: true,
+        //       cwd: 'images/',
+        //       src: ['**/*.{png,jpg,gif}'],
+        //       dest: 'images/build/'
+        //     }],
+        //   }
+        // },
         compass: {
           dist: {
             options: {
@@ -80,7 +80,7 @@ module.exports = function(grunt) {
             },
             files: [
               {dest: 'css/build/global.css', src: 'css/global.scss'},
-              {dest: './day019/css/*.css', src: './day019/css/*.scss'},
+              {dest: 'day036/css/warpspeed.css', src: './day036/css/warpspeed.scss'},
             ]
           }
         },
@@ -90,5 +90,5 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-sass');
-    grunt.registerTask('default',['concat','uglify','imagemin','watch','sass']);
+    grunt.registerTask('default',['concat','uglify',/*'imagemin',*/'watch','sass']);
 }

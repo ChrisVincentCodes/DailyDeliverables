@@ -1,0 +1,61 @@
+#mainDiv {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 1em;
+}
+
+canvas {
+  box-shadow: 2px 2px 2px #000000;
+  background-color: #FFFFFF;
+  border: 1px solid #111111;
+  cursor: crosshair;
+
+}
+
+input[type=button]{
+  /* height: 4em; */
+  font-size: 1.3em;
+  color: #BBBBBB;
+  background-color: #111111;
+  border: none;
+  box-shadow: 2px 2px 2px #000000;
+  display: inline-block;
+}
+
+.colorSelector {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  background-color: #111111;
+  display: inline-block;
+  margin-left: -36px;
+  margin-bottom: -10px;
+}
+.colorSelector div {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 30px;
+  height: 30px;
+  background-color: #333333;
+}
+
+#inputHeader {
+  margin: 0 0 0 0 ;
+  background-color: #111111;
+  box-shadow: 2px 2px 2px #000000;
+  display: inline-block;
+  padding-top: 1em;
+  text-align: center;
+}
+
+#inputLabel {
+  font-size: 1.3em;
+}
+
+input[type=file]{
+  font-size: 1em;
+  padding: 1em;
+  width: 100%;
+}

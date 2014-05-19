@@ -1,0 +1,75 @@
+$primary-color: #70DBDB;
+$secondary-color: #66CCCC;
+$visited-links: #208080;
+$tertiary-color: #1F9E9D;
+$text-shadow-color: #111111;
+$primary-background-color: #222222;
+$secondary-background-color: #111111;
+$default-text-color: #BBBBBB;
+$recent-color: #C9BC0F;
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.star {
+  width: 3px;
+  height: 3px;
+}
+
+#screenContainer {
+  width: 100%;
+  height: 80%;
+  font-size: 2em;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #000000;
+  cursor: none;
+  overflow: hidden;
+}
+
+#easingOptions {
+  height: 2em;
+  color: $default-text-color;
+  font-size: 1em;
+  background-color: $secondary-background-color;
+  box-shadow: 2px 2px 2px #000000;
+  border: none;
+  width: 100%;
+}
+
+#optionDiv {
+  background-color: $primary-background-color;
+  /* border: 3px solid $primary-color; */
+  height: 10%;
+  text-align: center;
+}
+
+.optionsDiv {
+  display: inline-block;
+  width: 33%;
+  font-size: 2em;
+}
+
+label, select {
+  display: block;
+}
+
+.colorSelector {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  background-color: #111111;
+  display: inline-block;
+  /* margin-left: -36px;
+  margin-bottom: -10px; */
+}
+.colorSelector div {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 30px;
+  height: 30px;
+  background-color: #333333;
+}
