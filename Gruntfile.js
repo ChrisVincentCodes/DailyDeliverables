@@ -80,7 +80,7 @@ module.exports = function(grunt) {
             },
             files: [
               {dest: 'css/build/global.css', src: 'css/global.scss'},
-              {dest: 'day036/css/warpspeed.css', src: './day036/css/warpspeed.scss'},
+              {dest: 'day042/css/warpspeed.css', src: './day042/css/warpspeed.scss'},
             ]
           }
         },
