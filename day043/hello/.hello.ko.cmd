@@ -1,0 +1,1 @@
+cmd_/home/fiveguys/Desktop/hello/hello.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-3.13.0-24-generic/scripts/module-common.lds --build-id  -o /home/fiveguys/Desktop/hello/hello.ko /home/fiveguys/Desktop/hello/hello.o /home/fiveguys/Desktop/hello/hello.mod.o
